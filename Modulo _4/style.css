@@ -1,0 +1,72 @@
+body{
+    padding: 0%;
+    margin: 0c;
+    background-color: darkgray;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+a:hover {
+    color: rgb(94, 94, 94);
+  }
+
+
+  
+
+
+
+.header{
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    background-color: rgb(207, 111, 111);
+    padding: 15px;
+    font-size: 20;
+}
+
+
+.menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float:right
+
+}
+
+li{
+    float: left;
+    color: rgb(0, 0, 0);
+    margin-left: 15px;
+
+}
+
+.Logo{
+    float: left;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 650px){
+    
+    .Logo{
+        float: none;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    .menu{
+    float: none;
+    text-align: center;
+
+
+
+  }
+  li{
+      float: none;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      padding: 10px;
+  }
+}
