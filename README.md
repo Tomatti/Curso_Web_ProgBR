@@ -1,1 +1,1 @@
-Repositório Para minha evolução do curso Programado BR
+Repositório do curso Programado BR
